@@ -6,7 +6,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 ## Quick Start
 
 ### Create a new post
-
+mathjax: $ s $
 ``` bash
 $ hexo new "My New Post"
 ```
@@ -18,7 +18,6 @@ More info: [Writing](https://hexo.io/docs/writing.html)
 ``` bash
 $ hexo server
 ```
-mathjax: $s$
 
 More info: [Server](https://hexo.io/docs/server.html)
 
