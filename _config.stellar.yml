@@ -257,8 +257,7 @@ comments:
 footer:
   social:
   rss:
-      icon: '<i class="fa-solid fa-rss fa-shake"></i>'
-      url: /atom.xml
+      url: /BingSiteAuth.xml
     # github:
     #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
     #   url: /
