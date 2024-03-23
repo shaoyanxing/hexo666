@@ -198,7 +198,7 @@ comments:
   # Twikoo
   # https://twikoo.js.org/
   twikoo:
-    envId: twikoo.shaoyanxing.top # vercel函数
+    envId: https://twikoo.shaoyanxing.top/ # vercel函数
 
   # Waline
   # https://waline.js.org/
