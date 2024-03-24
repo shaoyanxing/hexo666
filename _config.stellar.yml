@@ -552,8 +552,8 @@ style:
     code: 85% # 相较于其所在行的文本大小，建议用百分比
     codeblock: 0.8125rem # 13px
   font-family:
-    logo: '"LXGW WenKai Screen", ...
-    body: '"LXGW WenKai Screen", ...
+    logo: '"LXGW WenKai Screen", ...'
+    body: '"LXGW WenKai Screen", ...'
     code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
     codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
   text-align: left
