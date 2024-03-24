@@ -257,7 +257,7 @@ comments:
 footer:
   social:
   rss:
-      url: /BingSiteAuth.xml
+      url: /atom.xml
     # github:
     #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
     #   url: /
@@ -285,10 +285,31 @@ footer:
     #   - '[关于本站](/)'
     #   - '[GitHub](/)'
   content: | # 支持 Markdown 格式
+    <center>
+          </br>
+          </br>
+          <script type="text/javascript">
+          function show_runtime() {
+              window.setTimeout("show_runtime()", 1000);
+              X = new Date("2/20/2023 00:00:00");
+              Y = new Date();
+              T = (Y.getTime() - X.getTime());
+              M = 24 * 60 * 60 * 1000;
+              a = T / M;
+              A = Math.floor(a);
+              b = (a - A) * 24;
+              B = Math.floor(b);
+              c = (b - B) * 60;
+              C = Math.floor((b - B) * 60);
+              D = Math.floor((c - C) * 60);
+              runtime_span.innerHTML = "⏲️本站已运行 " + A + "天|" + B + "小时|" + C + "分|" + D + "秒⏲️"
+          }
+          show_runtime();
+          </script>
+          <span id="runtime_span"></span>
+    </center> 
     本站由 [{author.name}](/) 使用 [{theme.name} {theme.version}]({theme.tree}) 主题创建。
     本博客所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。
-  # 主题用户越多，开发者维护和更新的积极性就越高，如果您喜欢本主题，请在适当的位置显示主题信息和仓库链接以表支持。
-rss: /atom.xml
 
 
 ######## Tag Plugins ########
@@ -531,8 +552,8 @@ style:
     code: 85% # 相较于其所在行的文本大小，建议用百分比
     codeblock: 0.8125rem # 13px
   font-family:
-    logo: 'system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
-    body: 'system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+    logo: '"LXGW WenKai Screen", ...
+    body: '"LXGW WenKai Screen", ...
     code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
     codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
   text-align: left
