@@ -413,13 +413,36 @@ open_graph:
 
 
 #---------------------------
-# 页脚
+# 页脚c
 # Footer
 #---------------------------
 footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
+    <center>
+          </br>
+          </br>
+          <script type="text/javascript">
+          function show_runtime() {
+              window.setTimeout("show_runtime()", 1000);
+              X = new Date("2/20/2024 00:00:00");
+              Y = new Date();
+              T = (Y.getTime() - X.getTime());
+              M = 24 * 60 * 60 * 1000;
+              a = T / M;
+              A = Math.floor(a);
+              b = (a - A) * 24;
+              B = Math.floor(b);
+              c = (b - B) * 60;
+              C = Math.floor((b - B) * 60);
+              D = Math.floor((c - C) * 60);
+              runtime_span.innerHTML = "⏲️本站已运行 " + A + "天|" + B + "小时|" + C + "分|" + D + "秒⏲️"
+          }
+          show_runtime();
+          </script>
+          <span id="runtime_span"></span>
+    </center>
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <i class="iconfont icon-love"></i>
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
@@ -955,9 +978,9 @@ about:
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
-    - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com/shaoyanxing", tip: "GitHub" }
+    - { class: "iconfont icon-bilibili", link: "https://space.bilibili.com/591867678?spm_id_from=333.1007.0.0", tip: "bilibili" }
+    - { class: "iconfont icon-rss", link: "https://blog.shaoyanxing.top/atom.xml", tip: "RSS" }
 
 
 #---------------------------
