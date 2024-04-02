@@ -557,7 +557,7 @@ post:
 
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
   # Path of the default post cover when `index_img` is not set. If both are empty, no image will be displayed
-  default_index_img: https://ts1.cn.mm.bing.net/th/id/R-C.f9ec26bd7683f616b835a8452db2727f?rik=RrX0oY8tUVPDXQ&riu=http%3a%2f%2fwww.kutoo8.com%2fupload%2fimage%2f19207844%2f2.jpg&ehk=1MrkyvPK0xvsRqMQZaraQvccry28LoM5CnOiX%2fGBo9A%3d&risl=&pid=ImgRaw&r=0
+  default_index_img: https://uapis.cn/api/bing.php/
 
   # 文章标题下方的元信息
   # Meta information below title
