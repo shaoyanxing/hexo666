@@ -557,7 +557,7 @@ post:
 
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
   # Path of the default post cover when `index_img` is not set. If both are empty, no image will be displayed
-  default_index_img: https://ts1.cn.mm.bing.net/th/id/R-C.f9ec26bd7683f616b835a8452db2727f?rik=RrX0oY8tUVPDXQ&riu=http%3a%2f%2fwww.kutoo8.com%2fupload%2fimage%2f19207844%2f2.jpg&ehk=1MrkyvPK0xvsRqMQZaraQvccry28LoM5CnOiX%2fGBo9A%3d&risl=&pid=ImgRaw&r=0
+  default_index_img: https://uapis.cn/api/bing.php/
 
   # 文章标题下方的元信息
   # Meta information below title
@@ -912,7 +912,7 @@ discuss:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
+  banner_img: https://uapis.cn/api/bing.php/
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -923,7 +923,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://uapis.cn/api/bing.php/
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -952,7 +952,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://uapis.cn/api/bing.php/
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -969,12 +969,12 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://uapis.cn/api/bing.php/
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: /img/avatar.png
-  name: "Fluid"
-  intro: "An elegant theme for Hexo"
+  name: "邵彦行"
+  intro: "一名小学生"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
@@ -991,7 +991,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: /img/default.png
+  banner_img: https://uapis.cn/api/bing.php/
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -1002,7 +1002,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://uapis.cn/api/bing.php/
   banner_img_height: 85
   banner_mask_alpha: 0.3
   # 重定向到首页的延迟(毫秒)
@@ -1016,7 +1016,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://uapis.cn/api/bing.php/
   banner_img_height: 60
   banner_mask_alpha: 0.3
   # 友链的成员项
