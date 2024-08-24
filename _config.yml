@@ -98,7 +98,11 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-fluid
-
+plugins:
+  - hexo-toc
+hexo-toc:
+  anchorlink: ture
+  maxDepth: 6
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
